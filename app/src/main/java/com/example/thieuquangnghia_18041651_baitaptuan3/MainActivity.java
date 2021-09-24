@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonback1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,screen2.class));
+                startActivity(new Intent(MainActivity.this,danhsachnhac.class));
                 overridePendingTransition(R.anim.enter,R.anim.exit);
             }
         });

@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Thieuquangnghia_18041651_baitaptuan3">
         <activity
-            android:name=".screen4"
+            android:name=".loibaihat"
             android:exported="true" />
         <activity
-            android:name=".screen3"
+            android:name=".chaynhac"
             android:exported="true" />
         <activity
-            android:name=".screen2"
+            android:name=".danhsachnhac"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
