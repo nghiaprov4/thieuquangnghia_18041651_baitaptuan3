@@ -92,7 +92,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:transitionName="fade"
+        android:id="@+id/image3"
         android:layout_width="115dp"
         android:layout_height="115dp"
         android:layout_marginStart="20dp"
@@ -112,7 +113,8 @@
         app:srcCompat="@drawable/removebg_plant_a_1" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:transitionName="fade"
+        android:id="@+id/image2"
         android:layout_width="115dp"
         android:layout_height="115dp"
         android:layout_marginStart="25dp"
